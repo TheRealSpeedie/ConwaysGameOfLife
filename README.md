@@ -2,6 +2,8 @@
 
 A **modern twist** on the classic cellular automaton by John Conway – now with a **stylish interface** and **Speedie’s personal touch!**
 
+![image](https://github.com/user-attachments/assets/892a63dd-c5b6-49b9-9b82-02cbd06322f1)
+
 ## 🕹️ How It Works  
 1. **Start the Simulation** – Watch cells live, die, and evolve.  
 2. **Click to Toggle** – Activate or deactivate cells manually.  
