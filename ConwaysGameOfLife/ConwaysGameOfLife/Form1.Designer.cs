@@ -80,7 +80,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.36364F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.36364F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 27.27273F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1183, 650);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1183, 836);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel4
@@ -97,7 +97,7 @@
             this.tableLayoutPanel4.Controls.Add(this.lbl_amountAliveCells, 1, 2);
             this.tableLayoutPanel4.Controls.Add(this.lbl_changedCells, 1, 3);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(13, 471);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(13, 605);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.Padding = new System.Windows.Forms.Padding(15);
             this.tableLayoutPanel4.RowCount = 5;
@@ -106,7 +106,7 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(342, 166);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(342, 218);
             this.tableLayoutPanel4.TabIndex = 1;
             // 
             // label4
@@ -120,7 +120,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(306, 25);
             this.label4.TabIndex = 12;
-            this.label4.Text = "STATISTIKEN";
+            this.label4.Text = "STATS";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label5
@@ -146,7 +146,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(150, 25);
             this.label6.TabIndex = 14;
-            this.label6.Text = "💚 Lebende:";
+            this.label6.Text = "💚 Alive:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label7
@@ -159,7 +159,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(150, 25);
             this.label7.TabIndex = 15;
-            this.label7.Text = "👥 Änderungsrate";
+            this.label7.Text = "👥 Rate of change:";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lbl_generation
@@ -212,7 +212,7 @@
             this.tableLayoutPanel3.Controls.Add(this.btn_template_glider, 0, 1);
             this.tableLayoutPanel3.Controls.Add(this.btn_template_block, 0, 4);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(13, 242);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(13, 309);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.Padding = new System.Windows.Forms.Padding(15);
             this.tableLayoutPanel3.RowCount = 6;
@@ -222,7 +222,7 @@
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 223);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(342, 290);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // btn_template_gun
@@ -273,7 +273,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(306, 35);
             this.label3.TabIndex = 7;
-            this.label3.Text = "VORLAGEN";
+            this.label3.Text = "TEMPLATES";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_template_glider
@@ -338,7 +338,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 35F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(342, 223);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(342, 290);
             this.tableLayoutPanel2.TabIndex = 0;
             // 
             // label1
@@ -352,7 +352,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(306, 35);
             this.label1.TabIndex = 0;
-            this.label1.Text = "STEUERUNG";
+            this.label1.Text = "CONTROLS";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -366,7 +366,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(306, 35);
             this.label2.TabIndex = 1;
-            this.label2.Text = "⚡ GESCHWINDIGKEIT";
+            this.label2.Text = "⚡ SPEED";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btn_start
@@ -403,7 +403,7 @@
             this.btn_step.Name = "btn_step";
             this.btn_step.Size = new System.Drawing.Size(150, 34);
             this.btn_step.TabIndex = 3;
-            this.btn_step.Text = "⏭ SCHRITT";
+            this.btn_step.Text = "⏭ STEP";
             this.btn_step.UseVisualStyleBackColor = false;
             this.btn_step.Click += new System.EventHandler(this.btn_step_Click);
             // 
@@ -422,7 +422,7 @@
             this.btn_reset.Name = "btn_reset";
             this.btn_reset.Size = new System.Drawing.Size(150, 34);
             this.btn_reset.TabIndex = 4;
-            this.btn_reset.Text = "🗑 LEEREN";
+            this.btn_reset.Text = "🗑 EMPTY";
             this.btn_reset.UseVisualStyleBackColor = false;
             this.btn_reset.Click += new System.EventHandler(this.btn_reset_Click);
             // 
@@ -441,7 +441,7 @@
             this.btn_random.Name = "btn_random";
             this.btn_random.Size = new System.Drawing.Size(150, 34);
             this.btn_random.TabIndex = 5;
-            this.btn_random.Text = "🎲 ZUFÄLLIG";
+            this.btn_random.Text = "🎲 RANDOM";
             this.btn_random.UseVisualStyleBackColor = false;
             this.btn_random.Click += new System.EventHandler(this.btn_random_Click);
             // 
@@ -463,7 +463,7 @@
             this.panel_field.Location = new System.Drawing.Point(361, 13);
             this.panel_field.Name = "panel_field";
             this.tableLayoutPanel1.SetRowSpan(this.panel_field, 3);
-            this.panel_field.Size = new System.Drawing.Size(809, 624);
+            this.panel_field.Size = new System.Drawing.Size(809, 810);
             this.panel_field.TabIndex = 2;
             this.panel_field.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_field_Paint);
             this.panel_field.MouseClick += new System.Windows.Forms.MouseEventHandler(this.panel_field_MouseClick);
@@ -478,7 +478,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(15)))), ((int)(((byte)(35)))));
-            this.ClientSize = new System.Drawing.Size(1183, 650);
+            this.ClientSize = new System.Drawing.Size(1183, 836);
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
